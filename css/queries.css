@@ -1,0 +1,214 @@
+/* ////////////// */
+/* ISPOD 1200px */
+/* ////////////// */
+
+@media screen and (max-width: 75em) {
+  html {
+    font-size: 56.5%;
+  }
+
+  .paragraph {
+    font-size: 1.6rem;
+  }
+
+  .why-us .row {
+    justify-items: center;
+    gap: 3rem;
+  }
+
+  .how-we-work {
+    padding-top: 4.5rem;
+  }
+
+  .how-we-work .step {
+    max-width: 70rem;
+    padding: 4.5rem 5rem;
+  }
+
+  .portfolio .portfolio-wrapper {
+    padding-top: 14.8rem;
+    padding-bottom: 14.8rem;
+  }
+}
+
+/* ////////////// */
+/* ISPOD 960px */
+/* ////////////// */
+
+@media screen and (max-width: 60em) {
+  html {
+    font-size: 50%;
+  }
+
+  .paragraph {
+    font-size: 16px;
+    line-height: 2.9rem;
+  }
+
+  header .menu-btn {
+    display: inline-block;
+  }
+
+  .main-nav {
+    display: none;
+  }
+
+  .instagram {
+    display: none;
+  }
+
+  .about-us {
+    padding-top: 9rem;
+  }
+
+  .about-us .row {
+    gap: 4rem;
+  }
+
+  .why-us .row {
+    gap: 5rem;
+  }
+
+  .how-we-work .step {
+    max-width: 74rem;
+  }
+
+  .portfolio .portfolio-wrapper {
+    padding-top: 12.8rem;
+    padding-bottom: 12.8rem;
+  }
+}
+
+/* ////////////// */
+/* ISPOD 768px */
+/* ////////////// */
+
+@media screen and (max-width: 48em) {
+  .about-us .row {
+    grid-template-columns: 1fr;
+    justify-items: left;
+  }
+
+  .about-us .about-wrapper {
+    margin-left: 5rem;
+  }
+
+  .about-us .about-img {
+    margin-left: 5rem;
+  }
+
+  .why-us .row {
+    grid-template-columns: 1fr;
+    justify-items: left;
+  }
+
+  .why-us .why-us-text-wrapper {
+    order: 1;
+    margin-left: 5rem;
+  }
+
+  .why-us .why-us-img {
+    order: 2;
+    margin-left: 5rem;
+  }
+
+  .how-we-work .step-right {
+    margin-left: 0;
+  }
+
+  .how-we-work .step {
+    max-width: 50rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .how-we-work .step-right .step-number {
+    order: 1;
+  }
+
+  .how-we-work .step-right .step-desc {
+    order: 2;
+  }
+
+  .how-we-work .step-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .how-we-work .step-content .step-number {
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .how-we-work .step-content .step-number::after {
+    display: none;
+  }
+
+  .how-we-work .step .step-desc {
+    text-align: center;
+  }
+}
+
+/* ////////////// */
+/* ISPOD 608px */
+/* ////////////// */
+
+@media screen and (max-width: 38em) {
+  .main-heading {
+    font-size: 4.3rem;
+  }
+
+  .heading-secondary {
+    font-size: 3.3rem;
+  }
+
+  .meet-us-heading {
+    font-size: 3.3rem;
+  }
+
+  .about-us .about-wrapper {
+    margin-left: 0;
+  }
+  .about-us .about-img {
+    margin-left: 0;
+  }
+
+  .why-us .why-us-text-wrapper {
+    margin-left: 0;
+  }
+
+  .why-us .why-us-img {
+    margin-left: 0;
+  }
+
+  .how-we-work .step {
+    max-width: 26rem;
+  }
+
+  .how-we-work .how-container {
+    padding: 0;
+  }
+
+  .how-we-work .step-content .step-number h2 {
+    font-size: 11rem;
+  }
+
+  .how-we-work .step-content .step-desc .step-text {
+    width: 270px;
+    font-weight: 500;
+    font-size: 15px;
+  }
+
+  .portfolio .portfolio-heading {
+    font-size: 3.3rem;
+  }
+
+  .portfolio .see-more .see-more-btn {
+    padding: 7px 20px 7px 23px;
+  }
+
+  .portfolio .see-more .arrow-right svg {
+    height: 30px;
+    width: 30px;
+  }
+}
